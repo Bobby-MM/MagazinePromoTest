@@ -1,0 +1,145 @@
+body {
+    max-height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.pj-nav1 {
+    max-width: 100%;
+    padding: 0 5%;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: -1px 4px 4px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 4px 4px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 4px -2px rgba(0,0,0,0.75);
+}
+
+.first-section {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.hamburger-menu {
+    width: 30px;
+}
+
+.pj-logo {
+    width: 166px;
+}
+
+.pj-account {
+    width: 30px;
+}
+
+.pj-nav2 {
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color: rgb(238, 238, 238);
+    box-shadow: -1px 4px 4px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 4px 4px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 4px -2px rgba(0,0,0,0.75);
+}
+
+.pj-nav2, p {
+    margin: 0;
+}
+
+.pj-clouds {
+    width: 24px;
+}
+
+.pj-weather-section {
+    display: flex;
+}
+
+.pj-degrees {
+    margin-left: 10px;
+}
+
+.pj-top-billboard {
+    height: 110px;
+    width: 320px;
+    background-color: #c9c9c9;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.hash-grid {
+    display: grid;
+    grid-template-columns: 95px 95px 95px;
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.hash {
+    height: 39px;
+    width: 95px;
+    background-color: #c9c9c9;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-a-la-une {
+    max-width: 100%;
+}
+
+.main-header {
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 21px;
+    margin-bottom: 16px;
+}
+
+.main-card {
+    height: 512px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.img-placeholder {
+    height: 275px;
+    min-width: 100%;
+    background-color: #c9c9c9;
+}
+
+.card-content {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.sous-sector {
+    margin-top: 8px;
+    margin-bottom: 1px;
+}
+
+.lorem-title {
+    margin-bottom: 8px;
+}
+
+.lorem-content {
+    height: 84px;
+}
+
+/* ********** ////////// STICKY TAB STYLING \\\\\\\\\\ ********** */
+.sticky-tab {
+    box-sizing: border-box;
+    position: fixed;
+    width: 175px;
+    height: 100px;
+    right: -75px;
+    top: 25%;
+    transform: translateY(-40%);
+    transition: all 200ms linear;
+}
+
+.sticky-tab:hover {
+    right: 0;
+}
